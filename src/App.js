@@ -1,35 +1,88 @@
-import logo from './logo.svg';
 import './App.css';
 import Stories from 'react-insta-stories';
 
-
-
 const stories = [
   {
-    url: '/img1.jpg',
-    duration: 5000,
+    url: '/step-1.jpeg',
+    type: 'video',
     header: {
-      heading: 'Natan Merelles',
+      heading: 'Alef',
       subheading: 'Posted 10 de fev 2022',
       profileImage: 'https://cdn-icons-png.flaticon.com/512/147/147144.png',
     },
   }, {
-    url: '/img2.jpg',
-    duration: 5000,
+    url: '/step-2.jpeg',
+    type: 'video',
     header: {
-      heading: 'Natan Merelles',
+      heading: 'Alef',
       subheading: 'Posted 10 de fev 2022',
       profileImage: 'https://cdn-icons-png.flaticon.com/512/147/147144.png',
     },
   }, {
-    url: '/img3.jpg',
-    duration: 5000,
+    url: '/step-3.jpeg',
+    type: 'video',
     header: {
-      heading: 'Natan Merelles',
+      heading: 'Alef',
       subheading: 'Posted 10 de fev 2022',
       profileImage: 'https://cdn-icons-png.flaticon.com/512/147/147144.png',
     },
-  },
+  }, {
+    url: '/step-4.jpeg',
+    type: 'video',
+    header: {
+      heading: 'Alef',
+      subheading: 'Posted 10 de fev 2022',
+      profileImage: 'https://cdn-icons-png.flaticon.com/512/147/147144.png',
+    },
+  }, {
+    url: '/step-5.jpeg',
+    type: 'video',
+    header: {
+      heading: 'Alef',
+      subheading: 'Posted 10 de fev 2022',
+      profileImage: 'https://cdn-icons-png.flaticon.com/512/147/147144.png',
+    },
+  }, {
+    url: '/step-6.jpeg',
+    type: 'video',
+    header: {
+      heading: 'Natan',
+      subheading: 'Posted 10 de fev 2022',
+      profileImage: 'https://cdn-icons-png.flaticon.com/512/147/147144.png',
+    },
+  }, {
+    url: '/step-7.jpeg',
+    type: 'video',
+    header: {
+      heading: 'Natan',
+      subheading: 'Posted 10 de fev 2022',
+      profileImage: 'https://cdn-icons-png.flaticon.com/512/147/147144.png',
+    },
+  }, {
+    url: '/step-8.jpeg',
+    type: 'video',
+    header: {
+      heading: 'Natan',
+      subheading: 'Posted 10 de fev 2022',
+      profileImage: 'https://cdn-icons-png.flaticon.com/512/147/147144.png',
+    },
+  }, {
+    url: '/step-9.jpeg',
+    type: 'video',
+    header: {
+      heading: 'Natan',
+      subheading: 'Posted 10 de fev 2022',
+      profileImage: 'https://cdn-icons-png.flaticon.com/512/147/147144.png',
+    },
+  }, {
+    url: '/step-10.jpeg',
+    type: 'video',
+    header: {
+      heading: 'Natan',
+      subheading: 'Posted 10 de fev 2022',
+      profileImage: 'https://cdn-icons-png.flaticon.com/512/147/147144.png',
+    },
+  }
 ];
 
 function App() {
